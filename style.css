@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:bisque;
+    height: 100vh;
+    display: flex;
+   place-items: center;
+   justify-content: space-around;
+   padding: 0 3rem;
+}
+.one{
+    margin-top: -2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    width: 40%;
+    place-items: center;
+    text-transform: uppercase;
+    color: #08066b;
+}
+
+.grid{
+    display: grid;
+    width: auto;
+    margin-left: -3rem;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3, 200px);
+    border: 5px solid brown;
+}
+.square{
+    border: 2px solid brown;
+    background: yellowgreen;
+
+}
+.mole{
+    background: url("mole.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+h2{
+    color:#07061f;
+}
+
+#time-left,
+#score{
+    margin-top: 0;
+    font-size: 2rem;
+    color:#747474
+}
